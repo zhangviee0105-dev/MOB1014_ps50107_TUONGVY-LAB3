@@ -15,7 +15,7 @@ public class xulymang {
 
         Scanner sc = new Scanner(System.in);
 
-        // Nhap so phan tu
+   
         int n;
 
         do {
@@ -23,16 +23,16 @@ public class xulymang {
             n = sc.nextInt();
         } while (n <= 0);
 
-        // Tao mang
+       
         int[] a = new int[n];
 
-        // Nhap mang
+      
         for (int i = 0; i < n; i++) {
             System.out.printf("Nhap a[%d]: ", i);
             a[i] = sc.nextInt();
         }
 
-        // 1. Xuat mang
+        
         System.out.printf("Mang vua nhap: ");
 
         for (int i = 0; i < n; i++) {
@@ -60,7 +60,7 @@ public class xulymang {
 
         System.out.printf("\n");
 
-        // 3. Tong cac phan tu chia het cho 4
+       
         int tong = 0;
 
         for (int i = 0; i < n; i++) {
@@ -72,7 +72,7 @@ public class xulymang {
 
         System.out.printf("Tong cac so chia het cho 4: %d\n", tong);
 
-        // 4. Tim gia tri lon nhat
+      
         int max = a[0];
 
         for (int i = 1; i < n; i++) {
